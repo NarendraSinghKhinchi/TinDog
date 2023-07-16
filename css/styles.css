@@ -1,0 +1,103 @@
+body{
+    font-family: Ubuntu;
+    padding: 0;
+}
+h3{
+    font-weight: 800;
+
+}
+.heading{
+    font-family: Montserrat-Black;
+    line-height: 1.5;
+    font-size: 3rem;
+    color: #fff;
+}
+.container-fluid{
+    padding: 3% 15%;
+}
+.navbar-brand{
+    font-size: 5rem;
+    font-family:  The Nautigal;
+    color: #fff;
+}
+/* title image */
+.title-image{
+    width: 30%;
+    transform: rotate(25deg);
+    position: absolute;
+    padding-left: 12px;
+}
+.icons{
+    color: #e786ad ;
+    font-size: 3rem;
+}
+.icons:hover{
+    color: #ff4c68;
+}
+.testimonials-image{
+    border-radius: 100%;
+    width: 50px;
+    margin: 3px 3px;
+}
+.img{
+    padding: 25px 1%;
+    width: 25%;
+}
+.carousel-inner{
+    padding : 5% 25% 0;
+    font-family: Ubuntu-bold;
+    color: #fff;
+}
+.temp{
+    padding-bottom: 25px;
+}
+#testimonials{
+    background-color: #ff4c68;
+    text-align: center;
+   
+}
+#features{
+    text-align: center;
+    padding: 100px 15px 145px;
+    background-color: #fff;
+    position : relative ;
+}
+#title{
+    background-color: #ff4c68;
+    padding-bottom: 20%;
+}
+#press{
+    padding : 5% 15% 0;
+    text-align: center;
+}
+/* Pricing */
+#pricing{
+    text-align: center;
+    padding: 2% 20%;
+}
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 2% 25%;
+}
+#footer{
+    text-align: center;
+    background-color: #f15f75;
+    margin: 0;
+}
+.footlink{
+    color : black;
+    font-size: 1.5rem;
+}
+@media  (max-width : 964px) {
+    #title{
+        text-align: center;
+        padding-bottom: 50px;
+    }
+    .title-image{
+        padding: 50px 0 0;
+        width: 60%;
+        position: static;
+        transform: rotate(0);
+    }
+  }
